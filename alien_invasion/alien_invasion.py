@@ -23,8 +23,9 @@ class AlienInvasion:
         while True:
 
             self._check_events()
-            self.ship.update()
             self._update_screen()
+            self.ship.update()
+            
 
     def _check_events(self):
         
