@@ -17,9 +17,6 @@ class AlienInvasion:
         
         self.ship = Ship(self) 
         self.bullets = pygame.sprite.Group()   
-
-
-################################################################################
         
     def run_game(self):
 
